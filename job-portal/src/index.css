@@ -5,5 +5,7 @@
 @layer base {
     body {
         background:linear-gradient(to right, rgb(254, 249, 195), rgb(253, 224, 71), rgb(234, 179, 8));
+        background-repeat:no-repeat;
+        background-size:contain;
     }
 }

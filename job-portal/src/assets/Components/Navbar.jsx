@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center  :m-4 p-4 font-mono shadow-lg xm:bg-white">
                 <div id='' className="cursor-pointer font-serif font-extrabold text-black text-lg shadow-xl p-1 bg-red-200 border rounded-lg ">CareerNest.in</div>
                 <button onClick={toggleMenu} className="text-gray-800 focus:outline-none lg:hidden z-20">{isOpen ? <ImCross />:<GiHamburgerMenu />} {isOpen && (
-                    <div className='lg:hidden fixed inset-0  w-xm h-96 bg-white rounded-md shadow-lg z-10 text-center ml-4 mt-16 bg-opacity-75'>
+                    <div className='lg:hidden fixed inset-0  w-xm h-96 bg-white rounded-md shadow-lg z-10 text-center ml-4 mt-16 bg-opacity-75 translate-x-72'>
                         <ShowNavbar />;
                     </div>)}</button>
                 <div className="hidden lg:flex lg:items-center lg:gap-20">

@@ -20,10 +20,12 @@ export default {
       width:{
         'xm':'375px',
       },
-      container:{
-        'xs':'375px',
+      screens:{
+        'xss':'375px',
+      },
+      fontSize:{
+        'xxs':'0.4rem',
       }
-      
     },
   },
   plugins: [],
